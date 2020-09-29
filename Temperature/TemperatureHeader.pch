@@ -1,0 +1,43 @@
+//
+//  TemperatureHeader.pch
+//  Temperature
+//
+//  Created by muma on 2020/3/2.
+//  Copyright © 2020 yuanwenxue. All rights reserved.
+//
+
+#ifndef TemperatureHeader_pch
+#define TemperatureHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define BASEURL @"http://182.92.168.4/renren-fast/app/"
+//#define BASEURL @"http://bu6ydi.natappfree.cc/renren-fast/app/"
+#define Login @"login"
+#define ScanQrCoder @"scan/"
+#define SenderTem @"temperature/record"
+
+
+#define SaveUserToken @"SaveUserToken"
+
+
+
+#define SendrOneImage @""
+#define RGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+//设置RGBA颜色
+#define RGBAColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(r)/255.0 blue:(r)/255.0 alpha:a]
+#define RGBA(rgbValue,a) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:a]
+#define WhiteColor RGB(0xFFFFFF) //白色字体
+#define     Font(F)             [UIFont systemFontOfSize:(F)]
+#define SCREEN_WIDTH [[UIScreen mainScreen] bounds].size.width
+#define SCREEN_HEIGHT [[UIScreen mainScreen] bounds].size.height
+#define WeakMySelf    __weak typeof(self) weakSelf = self;
+
+#import "MBProgressHUD+Add.h"
+#import "NetRequest.h"
+#import "UIImageView+WebCache.h"
+#import "UIButton+EnlargeEdge.h"
+
+
+#endif /* TemperatureHeader_pch */

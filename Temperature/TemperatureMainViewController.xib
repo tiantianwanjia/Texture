@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TemperatureMainViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainScan" translatesAutoresizingMaskIntoConstraints="NO" id="EsT-No-0Eu">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Lh-Uw-d17">
+                    <rect key="frame" x="0.0" y="100" width="414" height="796"/>
+                    <connections>
+                        <action selector="handllToSanButtonAction:" destination="-1" eventType="touchUpInside" id="znS-0j-4bQ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2TM-Yk-lm9">
+                    <rect key="frame" x="0.0" y="20" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="ZBY-Z0-61Q"/>
+                        <constraint firstAttribute="width" constant="50" id="isr-5p-ihx"/>
+                    </constraints>
+                    <state key="normal" image="nav_return"/>
+                    <connections>
+                        <action selector="handleMainDismisButtonAction:" destination="-1" eventType="touchUpInside" id="B64-Hw-SpU"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="2TM-Yk-lm9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="255-Kw-gzV"/>
+                <constraint firstAttribute="bottom" secondItem="EsT-No-0Eu" secondAttribute="bottom" id="Dai-Zh-Zx7"/>
+                <constraint firstItem="6Lh-Uw-d17" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="K4f-64-txh"/>
+                <constraint firstAttribute="trailing" secondItem="6Lh-Uw-d17" secondAttribute="trailing" id="Vn5-Du-ddX"/>
+                <constraint firstItem="EsT-No-0Eu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Wz3-4c-bRu"/>
+                <constraint firstItem="6Lh-Uw-d17" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="XxJ-X3-GZH"/>
+                <constraint firstItem="2TM-Yk-lm9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Yzs-0u-ykj"/>
+                <constraint firstAttribute="trailing" secondItem="EsT-No-0Eu" secondAttribute="trailing" id="cti-De-Xsi"/>
+                <constraint firstAttribute="bottom" secondItem="6Lh-Uw-d17" secondAttribute="bottom" id="kNX-Xk-AOf"/>
+                <constraint firstItem="EsT-No-0Eu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="wUO-H5-Pc2"/>
+            </constraints>
+            <point key="canvasLocation" x="43" y="103"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="mainScan" width="213" height="454"/>
+        <image name="nav_return" width="10" height="16.5"/>
+    </resources>
+</document>
