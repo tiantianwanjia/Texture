@@ -33,6 +33,7 @@
 }
 
 - (IBAction)handleLoginButtonAction:(id)sender {
+    //是佛有合并冲突
     if (_phoneTextField.text.length == 0) {
         UIWindow *window = [[UIApplication sharedApplication].windows lastObject];
         [MBProgressHUD showError:@"请输入账号" toView:window];
