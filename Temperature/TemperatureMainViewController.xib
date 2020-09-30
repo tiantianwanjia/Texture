@@ -51,7 +51,7 @@
                 <constraint firstAttribute="bottom" secondItem="6Lh-Uw-d17" secondAttribute="bottom" id="kNX-Xk-AOf"/>
                 <constraint firstItem="EsT-No-0Eu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="wUO-H5-Pc2"/>
             </constraints>
-            <point key="canvasLocation" x="43" y="103"/>
+            <point key="canvasLocation" x="17" y="1085"/>
         </view>
     </objects>
     <resources>
