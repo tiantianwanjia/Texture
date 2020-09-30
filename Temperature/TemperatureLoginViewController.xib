@@ -73,23 +73,53 @@
                         <action selector="handleLoginButtonAction:" destination="-1" eventType="touchUpInside" id="0ar-qX-T6D"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o0z-rB-W1H">
+                    <rect key="frame" x="190" y="582" width="34" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="34" id="2RV-9K-4yG"/>
+                        <constraint firstAttribute="height" constant="30" id="hST-d3-3Qp"/>
+                    </constraints>
+                    <state key="normal" title="login"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSv-6w-fYB">
+                    <rect key="frame" x="184" y="712" width="46" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="1tk-m2-WP7"/>
+                        <constraint firstAttribute="width" constant="46" id="Tug-lL-O9p"/>
+                    </constraints>
+                    <state key="normal" title="loginTwo"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I0V-lM-Qlr">
+                    <rect key="frame" x="184" y="622" width="46" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="8qh-7h-9qp"/>
+                        <constraint firstAttribute="width" constant="46" id="hn7-06-TWP"/>
+                    </constraints>
+                    <state key="normal" title="Button333333"/>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="fSv-6w-fYB" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="2Sz-eV-69t"/>
                 <constraint firstItem="zeR-BM-YHx" firstAttribute="top" secondItem="yYl-gL-mIA" secondAttribute="bottom" id="3u3-K7-alL"/>
                 <constraint firstItem="yYl-gL-mIA" firstAttribute="top" secondItem="ncb-zW-6YN" secondAttribute="bottom" id="9yH-f8-sX0"/>
+                <constraint firstItem="o0z-rB-W1H" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="AY0-hq-3QH"/>
                 <constraint firstItem="ncb-zW-6YN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="300" id="F2P-Qp-faS"/>
                 <constraint firstItem="yYl-gL-mIA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="IbA-eX-elF"/>
                 <constraint firstItem="VBM-Gk-CfY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="NIL-bw-COZ"/>
+                <constraint firstItem="I0V-lM-Qlr" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="SuI-le-MnD"/>
+                <constraint firstItem="fSv-6w-fYB" firstAttribute="top" secondItem="o0z-rB-W1H" secondAttribute="bottom" constant="100" id="VpY-8p-OAf"/>
                 <constraint firstAttribute="trailing" secondItem="yYl-gL-mIA" secondAttribute="trailing" constant="20" id="ayZ-IH-ReM"/>
                 <constraint firstAttribute="trailing" secondItem="ncb-zW-6YN" secondAttribute="trailing" constant="29" id="b5q-hZ-rhK"/>
                 <constraint firstItem="mRJ-Ai-zdd" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="gTE-QV-ZRU"/>
                 <constraint firstAttribute="trailing" secondItem="zeR-BM-YHx" secondAttribute="trailing" constant="29" id="j8s-53-iQc"/>
+                <constraint firstItem="o0z-rB-W1H" firstAttribute="top" secondItem="mRJ-Ai-zdd" secondAttribute="bottom" constant="100" id="kPn-T0-lB3"/>
                 <constraint firstItem="zeR-BM-YHx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="29" id="lHg-7S-HbC"/>
                 <constraint firstAttribute="trailing" secondItem="VBM-Gk-CfY" secondAttribute="trailing" constant="20" id="nKD-8x-dwr"/>
                 <constraint firstItem="VBM-Gk-CfY" firstAttribute="top" secondItem="zeR-BM-YHx" secondAttribute="bottom" id="q6H-3d-YWg"/>
                 <constraint firstItem="mRJ-Ai-zdd" firstAttribute="top" secondItem="VBM-Gk-CfY" secondAttribute="bottom" constant="50" id="rmt-C0-gWq"/>
                 <constraint firstItem="ncb-zW-6YN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="29" id="smF-V6-RKB"/>
+                <constraint firstItem="I0V-lM-Qlr" firstAttribute="top" secondItem="o0z-rB-W1H" secondAttribute="bottom" constant="10" id="wC8-qm-Mg5"/>
             </constraints>
 
             <point key="canvasLocation" x="70" y="760"/>
