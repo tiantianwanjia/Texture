@@ -33,10 +33,10 @@
 }
 
 - (IBAction)handleLoginButtonAction:(id)sender {
-    //添加了login分支123
-    //添加了login分支
-    //在此添加了loginTwo分支
-    //又修改了
+    //添加了login分支123fffffff
+    //添加了login分支ffffff
+    //在此添加了loginTwo分支ffffff
+    //又修改了ffffffff
     if (_phoneTextField.text.length == 0) {
         UIWindow *window = [[UIApplication sharedApplication].windows lastObject];
         [MBProgressHUD showError:@"请输入账号" toView:window];
