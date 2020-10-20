@@ -32,6 +32,7 @@
 		BE748CE2240CF45E00CB5B6D /* UIButton+EnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = BE748CE1240CF45E00CB5B6D /* UIButton+EnlargeEdge.m */; };
 		BE748CE5240CF5D600CB5B6D /* TemperPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE748CE4240CF5D600CB5B6D /* TemperPickerView.m */; };
 		BE748D29240D0E1B00CB5B6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE748D27240D0E1B00CB5B6D /* Main.storyboard */; };
+		BE759BF72531639400D3C495 /* MuMaClassRoomCrashManger.m in Sources */ = {isa = PBXBuildFile; fileRef = BE759BF52531639400D3C495 /* MuMaClassRoomCrashManger.m */; };
 		BE81970A240CE084004FAEA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE819709240CE084004FAEA0 /* AppDelegate.m */; };
 		BE81970D240CE084004FAEA0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE81970C240CE084004FAEA0 /* SceneDelegate.m */; };
 		BE819715240CE088004FAEA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE819714240CE088004FAEA0 /* Assets.xcassets */; };
@@ -132,6 +133,8 @@
 		BE748CE3240CF5D600CB5B6D /* TemperPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemperPickerView.h; sourceTree = "<group>"; };
 		BE748CE4240CF5D600CB5B6D /* TemperPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemperPickerView.m; sourceTree = "<group>"; };
 		BE748D28240D0E1B00CB5B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE759BF52531639400D3C495 /* MuMaClassRoomCrashManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuMaClassRoomCrashManger.m; sourceTree = "<group>"; };
+		BE759BF62531639400D3C495 /* MuMaClassRoomCrashManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuMaClassRoomCrashManger.h; sourceTree = "<group>"; };
 		BE819705240CE084004FAEA0 /* Temperature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Temperature.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE819708240CE084004FAEA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BE819709240CE084004FAEA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -300,6 +303,8 @@
 		BE819707240CE084004FAEA0 /* Temperature */ = {
 			isa = PBXGroup;
 			children = (
+				BE759BF62531639400D3C495 /* MuMaClassRoomCrashManger.h */,
+				BE759BF52531639400D3C495 /* MuMaClassRoomCrashManger.m */,
 				BE819708240CE084004FAEA0 /* AppDelegate.h */,
 				BE819709240CE084004FAEA0 /* AppDelegate.m */,
 				BE81970B240CE084004FAEA0 /* SceneDelegate.h */,
@@ -599,6 +604,7 @@
 				BE748CD6240CF11000CB5B6D /* NSImage+WebCache.m in Sources */,
 				BE748CD5240CF11000CB5B6D /* UIImageView+WebCache.m in Sources */,
 				BE748CCE240CF11000CB5B6D /* UIImage+GIF.m in Sources */,
+				BE759BF72531639400D3C495 /* MuMaClassRoomCrashManger.m in Sources */,
 				BE81976E240CE719004FAEA0 /* MBProgressHUD.m in Sources */,
 				BE819775240CE719004FAEA0 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				BE81977D240CE719004FAEA0 /* AFHTTPSessionManager.m in Sources */,

@@ -89,6 +89,7 @@ static NSString *const scanLineAnimationName = @"scanLineAnimation";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSLog(@"%@",@[@""][9]);
     self.totalScale = 1.0;
     
     self.view.backgroundColor = WhiteColor;

@@ -1,5 +1,6 @@
 #import "SceneDelegate.h"
 #import "TemperatureLoginViewController.h"
+//#import "MuMaClassRoomCrashManger.h"
 
 @interface SceneDelegate ()
 
@@ -14,8 +15,14 @@
     self.window.frame = windowScene.coordinateSpace.bounds;
     self.window.rootViewController = [TemperatureLoginViewController new];
     [self.window makeKeyAndVisible];
+    //[MuMaClassRoomCrashManger defult];
+    NSSetUncaughtExceptionHandler (&HandleException);
 }
 
+void HandleException(NSException *exception)
+{
+    NSLog(@"写入 崩溃信息");
+}
 
 - (void)sceneDidDisconnect:(UIScene *)scene {
     // Called as the scene is being released by the system.

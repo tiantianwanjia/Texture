@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "TemperatureLoginViewController.h"
 
+#import "MuMaClassRoomCrashManger.h"
+
 @interface AppDelegate ()
 
 @end
@@ -25,12 +27,17 @@
            self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
            self.window.rootViewController = [TemperatureLoginViewController new];
            [self.window makeKeyAndVisible];
-            
+//            [MuMaClassRoomCrashManger defult];
+//            NSSetUncaughtExceptionHandler (&HandleException);
         }
     return YES;
 }
 
 
+//void HandleException(NSException *exception)
+//{
+//    NSLog(@"写入 崩溃信息");
+//}
 #pragma mark - UISceneSession lifecycle
 
 

@@ -22,6 +22,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = WhiteColor;
     
+    //NSLog(@"%@",@[@""][9]);
 //    NSAttributedString *attrString = [[NSAttributedString alloc] initWithString:@"请输入账号"attributes:
 //    @{NSForegroundColorAttributeName:RGB(0xFF8464)}];
 //    _phoneTextField.attributedPlaceholder = attrString;
@@ -46,26 +47,26 @@
     //在此添加了loginTwo分支ffffff
     //又修改了ffffffff
     
-    if (_phoneTextField.text.length == 0) {
-        UIWindow *window = [[UIApplication sharedApplication].windows lastObject];
-        [MBProgressHUD showError:@"请输入账号" toView:window];
-        return;
-    }
-    if (_phoneTextField.text.length == 0) {
-        [MBProgressHUD showError:@"请输入密码" toView:self.view];
-        return;
-    }
-    
-    [NetRequest POST:Login parameters:@{@"username":_phoneTextField.text,@"password":_passTextField.text} success:^(id responseObject) {
-        [[NSUserDefaults standardUserDefaults] setObject:responseObject[@"token"] forKey:SaveUserToken];
+//    if (_phoneTextField.text.length == 0) {
+//        UIWindow *window = [[UIApplication sharedApplication].windows lastObject];
+//        [MBProgressHUD showError:@"请输入账号" toView:window];
+//        return;
+//    }
+//    if (_phoneTextField.text.length == 0) {
+//        [MBProgressHUD showError:@"请输入密码" toView:self.view];
+//        return;
+//    }
+//    NSString *gg = nil;
+//    [NetRequest POST:Login parameters:@{@"username":gg,@"password":_passTextField.text} success:^(id responseObject) {
+//        [[NSUserDefaults standardUserDefaults] setObject:responseObject[@"token"] forKey:SaveUserToken];
         TemperatureMainViewController *mainVc = [TemperatureMainViewController new];
         mainVc.modalPresentationStyle = UIModalPresentationFullScreen;
         [self presentViewController:mainVc animated:YES completion:^{
             
         }];
-    } failure:^(NSError *error) {
-        
-    }];
+//    } failure:^(NSError *error) {
+//
+//    }];
     
 }
 #pragma mark -- UITextfielddelegate
