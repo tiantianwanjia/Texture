@@ -51,6 +51,7 @@
 
     //又修改了ffffffffffffff
     //反反复复发烧
+    //想要和定login分支的单个文件
     if (_phoneTextField.text.length == 0) {
         UIWindow *window = [[UIApplication sharedApplication].windows lastObject];
         [MBProgressHUD showError:@"请输入账号" toView:window];
