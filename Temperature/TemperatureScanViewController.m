@@ -91,7 +91,7 @@ static NSString *const scanLineAnimationName = @"scanLineAnimation";
     
     NSLog(@"%@",@[@""][9]);
     self.totalScale = 1.0;
-    //再次增加，只是想提交这一个文件
+    //再次增加，只是想提交这一个文件2222222
     
     self.view.backgroundColor = WhiteColor;
     
