@@ -1,0 +1,843 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0090106FD1106C75A4EA217D0D0AE60A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BCF729F0AC4E817CE9017EC11D1B3F /* Foundation.framework */; };
+		05691F51845E49221BCE5FD5BE06EE70 /* MBProgressHUD+MumaHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 353DE27813D3B2B73EA3675B8A574E00 /* MBProgressHUD+MumaHUD.m */; };
+		105674D2F4B91D4044631E23A8BFF6F7 /* MacroDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A29DBF9DAFB2F7F200C634511034F3A /* MacroDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		116A8C7F62ED06E02E1E756126DDAD2A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5FAB546BF9330DDFEC3DD57164AD80 /* ReplaceMe.m */; };
+		1A1D5427D84D05F95DF85E38E903BCC9 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56452E004419B9A637AC8D1455D07312 /* MBProgressHUD.framework */; };
+		1CA327169F65639A8BD81FAAB132B7F4 /* MumaBasicMacroDefinition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FE88DA651220A219027267B1F2ED0F3 /* MumaBasicMacroDefinition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56A5806B4D302A10370517CA8A874576 /* UIImage+MumaImageTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3327759005F2C4F7A2AA56D30E001E8F /* UIImage+MumaImageTools.m */; };
+		5A2CA390A10CDF4159C38DF2BC071EE9 /* MBProgressHUD+MumaHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E22E3BF2298A3E31F57F8A23D02A6 /* MBProgressHUD+MumaHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64F46B6A8DBA885AF570A54A082D1BAA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFE4313B24B1C09CAF4727DD4C9201E /* QuartzCore.framework */; };
+		70C4196A1261E755819D2770B22D0A92 /* MumaBasicMacroDefinition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2677550B92D392448FE8401F8C1DDB /* MumaBasicMacroDefinition-dummy.m */; };
+		70EE1C774C978E1876AE6CA1224E897D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F3FD3505B7B9FE674DAF6286D563CB /* MBProgressHUD.m */; };
+		81B9E2F21B1EF9FE4E769103108DEA8A /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ECA5C1B2C739FF31351A5DF43948C21 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81C2B1A137193A87AE817CBDE6ABF2CD /* UILabel+MumaArrtibuteLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB2B758B020E3064E7E50EB488146F7 /* UILabel+MumaArrtibuteLabel.m */; };
+		98F8F12A3BDCE6D26B0C1C62538A75FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BCF729F0AC4E817CE9017EC11D1B3F /* Foundation.framework */; };
+		A2FC7459ED83240ED98BA0AD18A47F19 /* UIImage+MumaImageTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 1274ECBA89E227A4A83915CD6440BA4A /* UIImage+MumaImageTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A601994621C892656F60D1A1292A9565 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071CD838077A924EAF357E1DE5D9716B /* CoreGraphics.framework */; };
+		B1F1B0691E0C0251A61C3A7D1A400EB9 /* UILabel+MumaArrtibuteLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = A11B1645A5F138FC77F65945F41FD4F6 /* UILabel+MumaArrtibuteLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD3B7D037E7FC58466FF42FEB6CB466C /* Pods-Temperature-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30A19F317A4558CD4461DF2A8BD4483A /* Pods-Temperature-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DABF20F73D27572CD97071A6D4DB9004 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2252C3AD1166CA3EDAEC15FEF3FB25A /* MBProgressHUD-dummy.m */; };
+		EB2A4C29BE958CCB03B3FD9FAB927F1F /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = A84C2B7AF5D897581C2D25DD13F42312 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0199035AC28D1858B53726658857987 /* Pods-Temperature-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5C8601C61617E7C5619FF5392F4FE9 /* Pods-Temperature-dummy.m */; };
+		FF0EE7E6F869E55DA268F25622674EB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BCF729F0AC4E817CE9017EC11D1B3F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		175D22509F3EACF731077D5F1DABA3A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		738F977FDEC0FF30AD8974A6873C6D32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D643AE73FA141B4C4F498A3C0593B8A;
+			remoteInfo = MumaBasicMacroDefinition;
+		};
+		CF2A05A428C3557152AD49957BB6EB35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02C1334C2E9F856D9FA9220C8E125BA0 /* MumaBasicMacroDefinition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MumaBasicMacroDefinition-Info.plist"; sourceTree = "<group>"; };
+		066DAF6331A8CF7705B2EC1063B6AEC7 /* MumaBasicMacroDefinition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MumaBasicMacroDefinition-prefix.pch"; sourceTree = "<group>"; };
+		06728D07347A221CB8FF14492862DD32 /* MumaBasicMacroDefinition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MumaBasicMacroDefinition.release.xcconfig; sourceTree = "<group>"; };
+		071CD838077A924EAF357E1DE5D9716B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		0FE88DA651220A219027267B1F2ED0F3 /* MumaBasicMacroDefinition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MumaBasicMacroDefinition-umbrella.h"; sourceTree = "<group>"; };
+		1274ECBA89E227A4A83915CD6440BA4A /* UIImage+MumaImageTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MumaImageTools.h"; path = "MumaBasicMacroDefinition/Classes/UIImage+MumaImageTools.h"; sourceTree = "<group>"; };
+		1B5C8601C61617E7C5619FF5392F4FE9 /* Pods-Temperature-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Temperature-dummy.m"; sourceTree = "<group>"; };
+		243E22E3BF2298A3E31F57F8A23D02A6 /* MBProgressHUD+MumaHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MBProgressHUD+MumaHUD.h"; path = "MumaBasicMacroDefinition/Classes/MBProgressHUD+MumaHUD.h"; sourceTree = "<group>"; };
+		2A23477E8F3CB05D9F9A5AF93AA8FDEA /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		30A19F317A4558CD4461DF2A8BD4483A /* Pods-Temperature-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Temperature-umbrella.h"; sourceTree = "<group>"; };
+		3327759005F2C4F7A2AA56D30E001E8F /* UIImage+MumaImageTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MumaImageTools.m"; path = "MumaBasicMacroDefinition/Classes/UIImage+MumaImageTools.m"; sourceTree = "<group>"; };
+		353DE27813D3B2B73EA3675B8A574E00 /* MBProgressHUD+MumaHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MBProgressHUD+MumaHUD.m"; path = "MumaBasicMacroDefinition/Classes/MBProgressHUD+MumaHUD.m"; sourceTree = "<group>"; };
+		3B2677550B92D392448FE8401F8C1DDB /* MumaBasicMacroDefinition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MumaBasicMacroDefinition-dummy.m"; sourceTree = "<group>"; };
+		3CBD1B60A490CEC9CC5AA11498AD8D65 /* MumaBasicMacroDefinition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MumaBasicMacroDefinition.framework; path = MumaBasicMacroDefinition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECA5C1B2C739FF31351A5DF43948C21 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		52C21075F2BB9DA0225B56895B40B89D /* Pods-Temperature.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Temperature.modulemap"; sourceTree = "<group>"; };
+		56452E004419B9A637AC8D1455D07312 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B86CD29E89770AB9F0C7AE9E83B376 /* Pods-Temperature-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Temperature-acknowledgements.plist"; sourceTree = "<group>"; };
+		65898FAEAE4316E2BABAF9BC9933EE13 /* Pods-Temperature-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Temperature-frameworks.sh"; sourceTree = "<group>"; };
+		6695B59BCB75C4CD4F936492624940F5 /* Pods-Temperature.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Temperature.release.xcconfig"; sourceTree = "<group>"; };
+		67F3FD3505B7B9FE674DAF6286D563CB /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		827976FB63B410045CACC6D420F64574 /* Pods-Temperature.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Temperature.debug.xcconfig"; sourceTree = "<group>"; };
+		85C4351239F84CC3357C6EE89AD43033 /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		8A29DBF9DAFB2F7F200C634511034F3A /* MacroDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MacroDefinition.h; path = MumaBasicMacroDefinition/Classes/MacroDefinition.h; sourceTree = "<group>"; };
+		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C7EBC2C424EF06DA1B1FECBE87EB48 /* MumaBasicMacroDefinition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MumaBasicMacroDefinition.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A11B1645A5F138FC77F65945F41FD4F6 /* UILabel+MumaArrtibuteLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+MumaArrtibuteLabel.h"; path = "MumaBasicMacroDefinition/Classes/UILabel+MumaArrtibuteLabel.h"; sourceTree = "<group>"; };
+		A7E233F7F920FDDCB5813370DE291AD6 /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		A84C2B7AF5D897581C2D25DD13F42312 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		AE0364DF920D5170CD66F2CDE2CEBC39 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		B0BFE9F3FFB25FCD706A8651A6469BAD /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		BBFE4313B24B1C09CAF4727DD4C9201E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		CD7B0A3E4BB2FB6C39F1A5132F0F13A1 /* MumaBasicMacroDefinition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MumaBasicMacroDefinition.modulemap; sourceTree = "<group>"; };
+		D0582A77B2CF77629B9D55520E3DFFFC /* Pods-Temperature-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Temperature-Info.plist"; sourceTree = "<group>"; };
+		DF5FAB546BF9330DDFEC3DD57164AD80 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MumaBasicMacroDefinition/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		E0BB393AD6A2C93F42FC4C8B9B0A1E36 /* Pods_Temperature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Temperature.framework; path = "Pods-Temperature.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3776C3D8ABEFB46A7791369ECC09CD7 /* Pods-Temperature-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Temperature-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EFB2B758B020E3064E7E50EB488146F7 /* UILabel+MumaArrtibuteLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+MumaArrtibuteLabel.m"; path = "MumaBasicMacroDefinition/Classes/UILabel+MumaArrtibuteLabel.m"; sourceTree = "<group>"; };
+		F2252C3AD1166CA3EDAEC15FEF3FB25A /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		F5BCF729F0AC4E817CE9017EC11D1B3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AA3C16B4B3AB40CA74BDDADEF5C143A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A601994621C892656F60D1A1292A9565 /* CoreGraphics.framework in Frameworks */,
+				FF0EE7E6F869E55DA268F25622674EB9 /* Foundation.framework in Frameworks */,
+				64F46B6A8DBA885AF570A54A082D1BAA /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8AD3AEA396AB2F37F516D5AB4A504D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0090106FD1106C75A4EA217D0D0AE60A /* Foundation.framework in Frameworks */,
+				1A1D5427D84D05F95DF85E38E903BCC9 /* MBProgressHUD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5882C6025B2E46B5D0EC9DB7626AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F8F12A3BDCE6D26B0C1C62538A75FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02C1007413ACE8A26CAAE51372885441 /* Pods-Temperature */ = {
+			isa = PBXGroup;
+			children = (
+				52C21075F2BB9DA0225B56895B40B89D /* Pods-Temperature.modulemap */,
+				E3776C3D8ABEFB46A7791369ECC09CD7 /* Pods-Temperature-acknowledgements.markdown */,
+				63B86CD29E89770AB9F0C7AE9E83B376 /* Pods-Temperature-acknowledgements.plist */,
+				1B5C8601C61617E7C5619FF5392F4FE9 /* Pods-Temperature-dummy.m */,
+				65898FAEAE4316E2BABAF9BC9933EE13 /* Pods-Temperature-frameworks.sh */,
+				D0582A77B2CF77629B9D55520E3DFFFC /* Pods-Temperature-Info.plist */,
+				30A19F317A4558CD4461DF2A8BD4483A /* Pods-Temperature-umbrella.h */,
+				827976FB63B410045CACC6D420F64574 /* Pods-Temperature.debug.xcconfig */,
+				6695B59BCB75C4CD4F936492624940F5 /* Pods-Temperature.release.xcconfig */,
+			);
+			name = "Pods-Temperature";
+			path = "Target Support Files/Pods-Temperature";
+			sourceTree = "<group>";
+		};
+		302D20B93F12F32CE0414D138D167200 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A23477E8F3CB05D9F9A5AF93AA8FDEA /* MBProgressHUD.modulemap */,
+				F2252C3AD1166CA3EDAEC15FEF3FB25A /* MBProgressHUD-dummy.m */,
+				B0BFE9F3FFB25FCD706A8651A6469BAD /* MBProgressHUD-Info.plist */,
+				AE0364DF920D5170CD66F2CDE2CEBC39 /* MBProgressHUD-prefix.pch */,
+				3ECA5C1B2C739FF31351A5DF43948C21 /* MBProgressHUD-umbrella.h */,
+				85C4351239F84CC3357C6EE89AD43033 /* MBProgressHUD.debug.xcconfig */,
+				A7E233F7F920FDDCB5813370DE291AD6 /* MBProgressHUD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		49DF5BAE7709B0460CC3643558F4D6BB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				071CD838077A924EAF357E1DE5D9716B /* CoreGraphics.framework */,
+				F5BCF729F0AC4E817CE9017EC11D1B3F /* Foundation.framework */,
+				BBFE4313B24B1C09CAF4727DD4C9201E /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D66E0447E98C9E9E4C96344926EBE7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BE4ED5441AE8E42DBD16E784C812ABF /* MBProgressHUD */,
+				906F00399E3FE4C8B272A07989C1432F /* MumaBasicMacroDefinition */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		88EC02479E0BFD5E985AD8FBC48E53DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */,
+				3CBD1B60A490CEC9CC5AA11498AD8D65 /* MumaBasicMacroDefinition.framework */,
+				E0BB393AD6A2C93F42FC4C8B9B0A1E36 /* Pods_Temperature.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		906F00399E3FE4C8B272A07989C1432F /* MumaBasicMacroDefinition */ = {
+			isa = PBXGroup;
+			children = (
+				8A29DBF9DAFB2F7F200C634511034F3A /* MacroDefinition.h */,
+				243E22E3BF2298A3E31F57F8A23D02A6 /* MBProgressHUD+MumaHUD.h */,
+				353DE27813D3B2B73EA3675B8A574E00 /* MBProgressHUD+MumaHUD.m */,
+				DF5FAB546BF9330DDFEC3DD57164AD80 /* ReplaceMe.m */,
+				1274ECBA89E227A4A83915CD6440BA4A /* UIImage+MumaImageTools.h */,
+				3327759005F2C4F7A2AA56D30E001E8F /* UIImage+MumaImageTools.m */,
+				A11B1645A5F138FC77F65945F41FD4F6 /* UILabel+MumaArrtibuteLabel.h */,
+				EFB2B758B020E3064E7E50EB488146F7 /* UILabel+MumaArrtibuteLabel.m */,
+				9EF816254CB3614136DC95C7FD6A9895 /* Support Files */,
+			);
+			name = MumaBasicMacroDefinition;
+			path = MumaBasicMacroDefinition;
+			sourceTree = "<group>";
+		};
+		9BE4ED5441AE8E42DBD16E784C812ABF /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				A84C2B7AF5D897581C2D25DD13F42312 /* MBProgressHUD.h */,
+				67F3FD3505B7B9FE674DAF6286D563CB /* MBProgressHUD.m */,
+				302D20B93F12F32CE0414D138D167200 /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		9EF816254CB3614136DC95C7FD6A9895 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD7B0A3E4BB2FB6C39F1A5132F0F13A1 /* MumaBasicMacroDefinition.modulemap */,
+				3B2677550B92D392448FE8401F8C1DDB /* MumaBasicMacroDefinition-dummy.m */,
+				02C1334C2E9F856D9FA9220C8E125BA0 /* MumaBasicMacroDefinition-Info.plist */,
+				066DAF6331A8CF7705B2EC1063B6AEC7 /* MumaBasicMacroDefinition-prefix.pch */,
+				0FE88DA651220A219027267B1F2ED0F3 /* MumaBasicMacroDefinition-umbrella.h */,
+				99C7EBC2C424EF06DA1B1FECBE87EB48 /* MumaBasicMacroDefinition.debug.xcconfig */,
+				06728D07347A221CB8FF14492862DD32 /* MumaBasicMacroDefinition.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MumaBasicMacroDefinition";
+			sourceTree = "<group>";
+		};
+		CD496C11F12A36A2E3C576FA77ABD664 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56452E004419B9A637AC8D1455D07312 /* MBProgressHUD.framework */,
+				49DF5BAE7709B0460CC3643558F4D6BB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				CD496C11F12A36A2E3C576FA77ABD664 /* Frameworks */,
+				5D66E0447E98C9E9E4C96344926EBE7E /* Pods */,
+				88EC02479E0BFD5E985AD8FBC48E53DB /* Products */,
+				F5E18D08B178BE5E078404C9FBF479FD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F5E18D08B178BE5E078404C9FBF479FD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02C1007413ACE8A26CAAE51372885441 /* Pods-Temperature */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		063D8EFC418B4860CC500D8A20EFD0AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3B7D037E7FC58466FF42FEB6CB466C /* Pods-Temperature-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0EBAB2761523F18BB73EB4DC5CBEC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B9E2F21B1EF9FE4E769103108DEA8A /* MBProgressHUD-umbrella.h in Headers */,
+				EB2A4C29BE958CCB03B3FD9FAB927F1F /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7C450861FB6F836159CE22649A9AE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105674D2F4B91D4044631E23A8BFF6F7 /* MacroDefinition.h in Headers */,
+				5A2CA390A10CDF4159C38DF2BC071EE9 /* MBProgressHUD+MumaHUD.h in Headers */,
+				1CA327169F65639A8BD81FAAB132B7F4 /* MumaBasicMacroDefinition-umbrella.h in Headers */,
+				A2FC7459ED83240ED98BA0AD18A47F19 /* UIImage+MumaImageTools.h in Headers */,
+				B1F1B0691E0C0251A61C3A7D1A400EB9 /* UILabel+MumaArrtibuteLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4C1E008E0B2E8C4507108136146C15E4 /* Pods-Temperature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B2AE556A2B0424DF848BF36CA60C8C /* Build configuration list for PBXNativeTarget "Pods-Temperature" */;
+			buildPhases = (
+				063D8EFC418B4860CC500D8A20EFD0AC /* Headers */,
+				8CD92182EB6BF2ADC4DC7A40770B7EA0 /* Sources */,
+				BE5882C6025B2E46B5D0EC9DB7626AE6 /* Frameworks */,
+				3145FD6DDC3C4527A7610F4466FEB20D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41F390396FA9C815920F0EC114D71ACC /* PBXTargetDependency */,
+				5AF38A157B1324908DAB2B0CB57C1AAE /* PBXTargetDependency */,
+			);
+			name = "Pods-Temperature";
+			productName = "Pods-Temperature";
+			productReference = E0BB393AD6A2C93F42FC4C8B9B0A1E36 /* Pods_Temperature.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70191416B9573C7ABB42333A08FA2DE4 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				8F0EBAB2761523F18BB73EB4DC5CBEC3 /* Headers */,
+				D2F84DC2E2DB3628B17B3841F2837477 /* Sources */,
+				1AA3C16B4B3AB40CA74BDDADEF5C143A /* Frameworks */,
+				435BF4D16B2F9CAB6E7F883F30E32B74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D643AE73FA141B4C4F498A3C0593B8A /* MumaBasicMacroDefinition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6E5C35A96C3B37AF0D8276864320B1 /* Build configuration list for PBXNativeTarget "MumaBasicMacroDefinition" */;
+			buildPhases = (
+				FA7C450861FB6F836159CE22649A9AE0 /* Headers */,
+				92CAE23D7E068167A1AAFE807EA9DA50 /* Sources */,
+				8F8AD3AEA396AB2F37F516D5AB4A504D /* Frameworks */,
+				F4C4A5AC97C83FC06C165143CB70A676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45DF4ACA0A46220CB05866285950C442 /* PBXTargetDependency */,
+			);
+			name = MumaBasicMacroDefinition;
+			productName = MumaBasicMacroDefinition;
+			productReference = 3CBD1B60A490CEC9CC5AA11498AD8D65 /* MumaBasicMacroDefinition.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 88EC02479E0BFD5E985AD8FBC48E53DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */,
+				9D643AE73FA141B4C4F498A3C0593B8A /* MumaBasicMacroDefinition */,
+				4C1E008E0B2E8C4507108136146C15E4 /* Pods-Temperature */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3145FD6DDC3C4527A7610F4466FEB20D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435BF4D16B2F9CAB6E7F883F30E32B74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C4A5AC97C83FC06C165143CB70A676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CD92182EB6BF2ADC4DC7A40770B7EA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0199035AC28D1858B53726658857987 /* Pods-Temperature-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CAE23D7E068167A1AAFE807EA9DA50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05691F51845E49221BCE5FD5BE06EE70 /* MBProgressHUD+MumaHUD.m in Sources */,
+				70C4196A1261E755819D2770B22D0A92 /* MumaBasicMacroDefinition-dummy.m in Sources */,
+				116A8C7F62ED06E02E1E756126DDAD2A /* ReplaceMe.m in Sources */,
+				56A5806B4D302A10370517CA8A874576 /* UIImage+MumaImageTools.m in Sources */,
+				81C2B1A137193A87AE817CBDE6ABF2CD /* UILabel+MumaArrtibuteLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F84DC2E2DB3628B17B3841F2837477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABF20F73D27572CD97071A6D4DB9004 /* MBProgressHUD-dummy.m in Sources */,
+				70EE1C774C978E1876AE6CA1224E897D /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41F390396FA9C815920F0EC114D71ACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = CF2A05A428C3557152AD49957BB6EB35 /* PBXContainerItemProxy */;
+		};
+		45DF4ACA0A46220CB05866285950C442 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = 175D22509F3EACF731077D5F1DABA3A0 /* PBXContainerItemProxy */;
+		};
+		5AF38A157B1324908DAB2B0CB57C1AAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MumaBasicMacroDefinition;
+			target = 9D643AE73FA141B4C4F498A3C0593B8A /* MumaBasicMacroDefinition */;
+			targetProxy = 738F977FDEC0FF30AD8974A6873C6D32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2957EC4C67CD05C6E82C3E9B6885085E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7E233F7F920FDDCB5813370DE291AD6 /* MBProgressHUD.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		371F37AB6D70C926288948228B6F7EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 827976FB63B410045CACC6D420F64574 /* Pods-Temperature.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Temperature/Pods-Temperature-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Temperature/Pods-Temperature.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		938B5AE0007BB18E15FF5788213B57CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85C4351239F84CC3357C6EE89AD43033 /* MBProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		942C11B606616B3A84077D45431386F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06728D07347A221CB8FF14492862DD32 /* MumaBasicMacroDefinition.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MumaBasicMacroDefinition/MumaBasicMacroDefinition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MumaBasicMacroDefinition/MumaBasicMacroDefinition-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MumaBasicMacroDefinition/MumaBasicMacroDefinition.modulemap";
+				PRODUCT_MODULE_NAME = MumaBasicMacroDefinition;
+				PRODUCT_NAME = MumaBasicMacroDefinition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9ADEE135F50F8C2A4AD7948AF7E1E287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C7EBC2C424EF06DA1B1FECBE87EB48 /* MumaBasicMacroDefinition.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MumaBasicMacroDefinition/MumaBasicMacroDefinition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MumaBasicMacroDefinition/MumaBasicMacroDefinition-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MumaBasicMacroDefinition/MumaBasicMacroDefinition.modulemap";
+				PRODUCT_MODULE_NAME = MumaBasicMacroDefinition;
+				PRODUCT_NAME = MumaBasicMacroDefinition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B12728540C086E6D3F2E0F40569BBCC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6695B59BCB75C4CD4F936492624940F5 /* Pods-Temperature.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Temperature/Pods-Temperature-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Temperature/Pods-Temperature.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22B2AE556A2B0424DF848BF36CA60C8C /* Build configuration list for PBXNativeTarget "Pods-Temperature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371F37AB6D70C926288948228B6F7EDC /* Debug */,
+				B12728540C086E6D3F2E0F40569BBCC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70191416B9573C7ABB42333A08FA2DE4 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938B5AE0007BB18E15FF5788213B57CF /* Debug */,
+				2957EC4C67CD05C6E82C3E9B6885085E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6E5C35A96C3B37AF0D8276864320B1 /* Build configuration list for PBXNativeTarget "MumaBasicMacroDefinition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ADEE135F50F8C2A4AD7948AF7E1E287 /* Debug */,
+				942C11B606616B3A84077D45431386F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

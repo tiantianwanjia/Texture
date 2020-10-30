@@ -9,6 +9,8 @@
 #import "TemperatureLoginViewController.h"
 #import "MBProgressHUD+Add.h"
 #import "TemperatureMainViewController.h"
+#import <MacroDefinition.h>
+
 
 @interface TemperatureLoginViewController ()<UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *phoneTextField;
@@ -22,7 +24,9 @@
     [super viewDidLoad];
     self.view.backgroundColor = WhiteColor;
     
-    //NSLog(@"%@",@[@""][9]);
+    NSLog(@"%lf",SCREEN_HEIGHT);
+    
+    //NSLog(@"%@",@[@""][9]);234234234234
 //    NSAttributedString *attrString = [[NSAttributedString alloc] initWithString:@"请输入账号"attributes:
 //    @{NSForegroundColorAttributeName:RGB(0xFF8464)}];
 //    _phoneTextField.attributedPlaceholder = attrString;

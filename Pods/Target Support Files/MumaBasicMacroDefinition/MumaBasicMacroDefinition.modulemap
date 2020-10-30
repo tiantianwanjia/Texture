@@ -1,0 +1,6 @@
+framework module MumaBasicMacroDefinition {
+  umbrella header "MumaBasicMacroDefinition-umbrella.h"
+
+  export *
+  module * { export * }
+}

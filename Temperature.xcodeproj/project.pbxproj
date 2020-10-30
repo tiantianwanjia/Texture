@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B94EA32CA1979F4646590F57 /* Pods_Temperature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C7DD6785086A91DBE890BDD /* Pods_Temperature.framework */; };
+		BE2409F1254AE9FE00E10978 /* UIViewController+MumaNavegationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2409F0254AE9FE00E10978 /* UIViewController+MumaNavegationItem.m */; };
 		BE748C9C240CEBAD00CB5B6D /* TemperatureMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE748C9A240CEBAD00CB5B6D /* TemperatureMainViewController.m */; };
 		BE748C9D240CEBAD00CB5B6D /* TemperatureMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE748C9B240CEBAD00CB5B6D /* TemperatureMainViewController.xib */; };
 		BE748CA0240CED0C00CB5B6D /* TemperatureScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE748C9F240CED0C00CB5B6D /* TemperatureScanViewController.m */; };
@@ -33,6 +35,7 @@
 		BE748CE5240CF5D600CB5B6D /* TemperPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE748CE4240CF5D600CB5B6D /* TemperPickerView.m */; };
 		BE748D29240D0E1B00CB5B6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE748D27240D0E1B00CB5B6D /* Main.storyboard */; };
 		BE759BF72531639400D3C495 /* MuMaClassRoomCrashManger.m in Sources */ = {isa = PBXBuildFile; fileRef = BE759BF52531639400D3C495 /* MuMaClassRoomCrashManger.m */; };
+		BE7F142F254BA8B40011907A /* UINavigationBar+MumaNavetationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7F142E254BA8B40011907A /* UINavigationBar+MumaNavetationBar.m */; };
 		BE81970A240CE084004FAEA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE819709240CE084004FAEA0 /* AppDelegate.m */; };
 		BE81970D240CE084004FAEA0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE81970C240CE084004FAEA0 /* SceneDelegate.m */; };
 		BE819715240CE088004FAEA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE819714240CE088004FAEA0 /* Assets.xcassets */; };
@@ -85,6 +88,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06465DD718E76F606DE679EC /* Pods-Temperature.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Temperature.debug.xcconfig"; path = "Target Support Files/Pods-Temperature/Pods-Temperature.debug.xcconfig"; sourceTree = "<group>"; };
+		7C7DD6785086A91DBE890BDD /* Pods_Temperature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Temperature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FB3441D98E8B47318D44BA2 /* Pods-Temperature.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Temperature.release.xcconfig"; path = "Target Support Files/Pods-Temperature/Pods-Temperature.release.xcconfig"; sourceTree = "<group>"; };
+		BE2409EF254AE9FE00E10978 /* UIViewController+MumaNavegationItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MumaNavegationItem.h"; sourceTree = "<group>"; };
+		BE2409F0254AE9FE00E10978 /* UIViewController+MumaNavegationItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MumaNavegationItem.m"; sourceTree = "<group>"; };
 		BE748C99240CEBAD00CB5B6D /* TemperatureMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemperatureMainViewController.h; sourceTree = "<group>"; };
 		BE748C9A240CEBAD00CB5B6D /* TemperatureMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemperatureMainViewController.m; sourceTree = "<group>"; };
 		BE748C9B240CEBAD00CB5B6D /* TemperatureMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TemperatureMainViewController.xib; sourceTree = "<group>"; };
@@ -135,6 +143,8 @@
 		BE748D28240D0E1B00CB5B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE759BF52531639400D3C495 /* MuMaClassRoomCrashManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuMaClassRoomCrashManger.m; sourceTree = "<group>"; };
 		BE759BF62531639400D3C495 /* MuMaClassRoomCrashManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuMaClassRoomCrashManger.h; sourceTree = "<group>"; };
+		BE7F142D254BA8B40011907A /* UINavigationBar+MumaNavetationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+MumaNavetationBar.h"; sourceTree = "<group>"; };
+		BE7F142E254BA8B40011907A /* UINavigationBar+MumaNavetationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+MumaNavetationBar.m"; sourceTree = "<group>"; };
 		BE819705240CE084004FAEA0 /* Temperature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Temperature.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE819708240CE084004FAEA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BE819709240CE084004FAEA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -210,6 +220,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B94EA32CA1979F4646590F57 /* Pods_Temperature.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +241,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50A1897021426ED31C3F6F0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06465DD718E76F606DE679EC /* Pods-Temperature.debug.xcconfig */,
+				9FB3441D98E8B47318D44BA2 /* Pods-Temperature.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		96FFB3220B32DA17FD55AC17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C7DD6785086A91DBE890BDD /* Pods_Temperature.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BE748CA1240CF11000CB5B6D /* SDWebImage */ = {
 			isa = PBXGroup;
 			children = (
@@ -287,6 +315,8 @@
 				BE819723240CE088004FAEA0 /* TemperatureTests */,
 				BE81972E240CE088004FAEA0 /* TemperatureUITests */,
 				BE819706240CE084004FAEA0 /* Products */,
+				50A1897021426ED31C3F6F0A /* Pods */,
+				96FFB3220B32DA17FD55AC17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -430,6 +460,10 @@
 				BE748CE1240CF45E00CB5B6D /* UIButton+EnlargeEdge.m */,
 				BE819784240CE757004FAEA0 /* MBProgressHUD+Add.h */,
 				BE819783240CE757004FAEA0 /* MBProgressHUD+Add.m */,
+				BE2409EF254AE9FE00E10978 /* UIViewController+MumaNavegationItem.h */,
+				BE2409F0254AE9FE00E10978 /* UIViewController+MumaNavegationItem.m */,
+				BE7F142D254BA8B40011907A /* UINavigationBar+MumaNavetationBar.h */,
+				BE7F142E254BA8B40011907A /* UINavigationBar+MumaNavetationBar.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -457,9 +491,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE819734240CE088004FAEA0 /* Build configuration list for PBXNativeTarget "Temperature" */;
 			buildPhases = (
+				EE64281BFC2B867383EED496 /* [CP] Check Pods Manifest.lock */,
 				BE819701240CE084004FAEA0 /* Sources */,
 				BE819702240CE084004FAEA0 /* Frameworks */,
 				BE819703240CE084004FAEA0 /* Resources */,
+				13AC1788706E8B24BDCCB747 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -580,6 +616,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13AC1788706E8B24BDCCB747 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Temperature/Pods-Temperature-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Temperature/Pods-Temperature-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Temperature/Pods-Temperature-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE64281BFC2B867383EED496 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Temperature-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BE819701240CE084004FAEA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -624,8 +702,10 @@
 				BE819773240CE719004FAEA0 /* UIProgressView+AFNetworking.m in Sources */,
 				BE819781240CE719004FAEA0 /* AFSecurityPolicy.m in Sources */,
 				BE748CCB240CF11000CB5B6D /* SDWebImageDecoder.m in Sources */,
+				BE2409F1254AE9FE00E10978 /* UIViewController+MumaNavegationItem.m in Sources */,
 				BE819793240CE7C5004FAEA0 /* NetRequest.m in Sources */,
 				BE81977B240CE719004FAEA0 /* AFImageDownloader.m in Sources */,
+				BE7F142F254BA8B40011907A /* UINavigationBar+MumaNavetationBar.m in Sources */,
 				BE748CD4240CF11000CB5B6D /* NSData+ImageContentType.m in Sources */,
 				BE748CCD240CF11000CB5B6D /* SDWebImageDownloader.m in Sources */,
 				BE819776240CE719004FAEA0 /* UIImageView+AFNetworking.m in Sources */,
@@ -799,6 +879,7 @@
 		};
 		BE819735240CE088004FAEA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06465DD718E76F606DE679EC /* Pods-Temperature.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development: Xuewen Yuan (ZQ6VCR9VAK)";
@@ -819,6 +900,7 @@
 		};
 		BE819736240CE088004FAEA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FB3441D98E8B47318D44BA2 /* Pods-Temperature.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";

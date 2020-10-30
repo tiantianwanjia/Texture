@@ -1,0 +1,21 @@
+PODS:
+  - MBProgressHUD (1.1.0)
+  - MumaBasicMacroDefinition (1.0):
+    - MBProgressHUD
+
+DEPENDENCIES:
+  - MumaBasicMacroDefinition
+
+SPEC REPOS:
+  http://192.168.5.132:8929/Muma-iOS-Assembly/MumaIOSAssembly.git:
+    - MumaBasicMacroDefinition
+  https://github.com/CocoaPods/Specs.git:
+    - MBProgressHUD
+
+SPEC CHECKSUMS:
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MumaBasicMacroDefinition: 53315cff1b34a3685c973e1fba723c730deae439
+
+PODFILE CHECKSUM: 8466d12b2dc969fb3b2cf7ad6755cb5f972a6c0a
+
+COCOAPODS: 1.9.0
