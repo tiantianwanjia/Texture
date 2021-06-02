@@ -8,7 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		B94EA32CA1979F4646590F57 /* Pods_Temperature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C7DD6785086A91DBE890BDD /* Pods_Temperature.framework */; };
-		BE2409F1254AE9FE00E10978 /* UIViewController+MumaNavegationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2409F0254AE9FE00E10978 /* UIViewController+MumaNavegationItem.m */; };
+		BE0FDA27256B501A00A9B610 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0FDA26256B501A00A9B610 /* CollectionViewController.m */; };
+		BE0FDA2B256B504700A9B610 /* ZhaoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0FDA29256B504700A9B610 /* ZhaoCollectionViewCell.m */; };
+		BE0FDA2C256B504700A9B610 /* ZhaoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE0FDA2A256B504700A9B610 /* ZhaoCollectionViewCell.xib */; };
+		BE0FDA38256B545700A9B610 /* MaiWeiFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0FDA37256B545700A9B610 /* MaiWeiFlowLayout.m */; };
+		BE0FDA41256B59A400A9B610 /* MaiWeiTwoFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0FDA40256B59A400A9B610 /* MaiWeiTwoFlowLayout.m */; };
 		BE748C9C240CEBAD00CB5B6D /* TemperatureMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE748C9A240CEBAD00CB5B6D /* TemperatureMainViewController.m */; };
 		BE748C9D240CEBAD00CB5B6D /* TemperatureMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE748C9B240CEBAD00CB5B6D /* TemperatureMainViewController.xib */; };
 		BE748CA0240CED0C00CB5B6D /* TemperatureScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE748C9F240CED0C00CB5B6D /* TemperatureScanViewController.m */; };
@@ -35,7 +39,8 @@
 		BE748CE5240CF5D600CB5B6D /* TemperPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE748CE4240CF5D600CB5B6D /* TemperPickerView.m */; };
 		BE748D29240D0E1B00CB5B6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE748D27240D0E1B00CB5B6D /* Main.storyboard */; };
 		BE759BF72531639400D3C495 /* MuMaClassRoomCrashManger.m in Sources */ = {isa = PBXBuildFile; fileRef = BE759BF52531639400D3C495 /* MuMaClassRoomCrashManger.m */; };
-		BE7F142F254BA8B40011907A /* UINavigationBar+MumaNavetationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7F142E254BA8B40011907A /* UINavigationBar+MumaNavetationBar.m */; };
+		BE7F1434254BFD060011907A /* UIViewController+MumaNavegationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7F1430254BFD060011907A /* UIViewController+MumaNavegationItem.m */; };
+		BE7F1435254BFD060011907A /* UINavigationBar+MumaNavetationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7F1432254BFD060011907A /* UINavigationBar+MumaNavetationBar.m */; };
 		BE81970A240CE084004FAEA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE819709240CE084004FAEA0 /* AppDelegate.m */; };
 		BE81970D240CE084004FAEA0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE81970C240CE084004FAEA0 /* SceneDelegate.m */; };
 		BE819715240CE088004FAEA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE819714240CE088004FAEA0 /* Assets.xcassets */; };
@@ -91,8 +96,15 @@
 		06465DD718E76F606DE679EC /* Pods-Temperature.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Temperature.debug.xcconfig"; path = "Target Support Files/Pods-Temperature/Pods-Temperature.debug.xcconfig"; sourceTree = "<group>"; };
 		7C7DD6785086A91DBE890BDD /* Pods_Temperature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Temperature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB3441D98E8B47318D44BA2 /* Pods-Temperature.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Temperature.release.xcconfig"; path = "Target Support Files/Pods-Temperature/Pods-Temperature.release.xcconfig"; sourceTree = "<group>"; };
-		BE2409EF254AE9FE00E10978 /* UIViewController+MumaNavegationItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MumaNavegationItem.h"; sourceTree = "<group>"; };
-		BE2409F0254AE9FE00E10978 /* UIViewController+MumaNavegationItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MumaNavegationItem.m"; sourceTree = "<group>"; };
+		BE0FDA25256B501A00A9B610 /* CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		BE0FDA26256B501A00A9B610 /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		BE0FDA28256B504700A9B610 /* ZhaoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZhaoCollectionViewCell.h; sourceTree = "<group>"; };
+		BE0FDA29256B504700A9B610 /* ZhaoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZhaoCollectionViewCell.m; sourceTree = "<group>"; };
+		BE0FDA2A256B504700A9B610 /* ZhaoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZhaoCollectionViewCell.xib; sourceTree = "<group>"; };
+		BE0FDA36256B545700A9B610 /* MaiWeiFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaiWeiFlowLayout.h; sourceTree = "<group>"; };
+		BE0FDA37256B545700A9B610 /* MaiWeiFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaiWeiFlowLayout.m; sourceTree = "<group>"; };
+		BE0FDA3F256B59A400A9B610 /* MaiWeiTwoFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaiWeiTwoFlowLayout.h; sourceTree = "<group>"; };
+		BE0FDA40256B59A400A9B610 /* MaiWeiTwoFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaiWeiTwoFlowLayout.m; sourceTree = "<group>"; };
 		BE748C99240CEBAD00CB5B6D /* TemperatureMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemperatureMainViewController.h; sourceTree = "<group>"; };
 		BE748C9A240CEBAD00CB5B6D /* TemperatureMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemperatureMainViewController.m; sourceTree = "<group>"; };
 		BE748C9B240CEBAD00CB5B6D /* TemperatureMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TemperatureMainViewController.xib; sourceTree = "<group>"; };
@@ -143,8 +155,10 @@
 		BE748D28240D0E1B00CB5B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE759BF52531639400D3C495 /* MuMaClassRoomCrashManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuMaClassRoomCrashManger.m; sourceTree = "<group>"; };
 		BE759BF62531639400D3C495 /* MuMaClassRoomCrashManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuMaClassRoomCrashManger.h; sourceTree = "<group>"; };
-		BE7F142D254BA8B40011907A /* UINavigationBar+MumaNavetationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+MumaNavetationBar.h"; sourceTree = "<group>"; };
-		BE7F142E254BA8B40011907A /* UINavigationBar+MumaNavetationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+MumaNavetationBar.m"; sourceTree = "<group>"; };
+		BE7F1430254BFD060011907A /* UIViewController+MumaNavegationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MumaNavegationItem.m"; sourceTree = "<group>"; };
+		BE7F1431254BFD060011907A /* UIViewController+MumaNavegationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MumaNavegationItem.h"; sourceTree = "<group>"; };
+		BE7F1432254BFD060011907A /* UINavigationBar+MumaNavetationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+MumaNavetationBar.m"; sourceTree = "<group>"; };
+		BE7F1433254BFD060011907A /* UINavigationBar+MumaNavetationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+MumaNavetationBar.h"; sourceTree = "<group>"; };
 		BE819705240CE084004FAEA0 /* Temperature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Temperature.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE819708240CE084004FAEA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BE819709240CE084004FAEA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -352,7 +366,20 @@
 				BE748CDD240CF14500CB5B6D /* TemperatureUserInterfaceViewController.xib */,
 				BE748CE3240CF5D600CB5B6D /* TemperPickerView.h */,
 				BE748CE4240CF5D600CB5B6D /* TemperPickerView.m */,
+				BE7F1430254BFD060011907A /* UIViewController+MumaNavegationItem.m */,
 				BE819795240CE824004FAEA0 /* TemperatureHeader.pch */,
+				BE7F1433254BFD060011907A /* UINavigationBar+MumaNavetationBar.h */,
+				BE7F1432254BFD060011907A /* UINavigationBar+MumaNavetationBar.m */,
+				BE7F1431254BFD060011907A /* UIViewController+MumaNavegationItem.h */,
+				BE0FDA25256B501A00A9B610 /* CollectionViewController.h */,
+				BE0FDA26256B501A00A9B610 /* CollectionViewController.m */,
+				BE0FDA28256B504700A9B610 /* ZhaoCollectionViewCell.h */,
+				BE0FDA29256B504700A9B610 /* ZhaoCollectionViewCell.m */,
+				BE0FDA2A256B504700A9B610 /* ZhaoCollectionViewCell.xib */,
+				BE0FDA36256B545700A9B610 /* MaiWeiFlowLayout.h */,
+				BE0FDA37256B545700A9B610 /* MaiWeiFlowLayout.m */,
+				BE0FDA3F256B59A400A9B610 /* MaiWeiTwoFlowLayout.h */,
+				BE0FDA40256B59A400A9B610 /* MaiWeiTwoFlowLayout.m */,
 				BE748CA1240CF11000CB5B6D /* SDWebImage */,
 				BE819786240CE7C5004FAEA0 /* NetWorking */,
 				BE819782240CE746004FAEA0 /* Category */,
@@ -460,10 +487,6 @@
 				BE748CE1240CF45E00CB5B6D /* UIButton+EnlargeEdge.m */,
 				BE819784240CE757004FAEA0 /* MBProgressHUD+Add.h */,
 				BE819783240CE757004FAEA0 /* MBProgressHUD+Add.m */,
-				BE2409EF254AE9FE00E10978 /* UIViewController+MumaNavegationItem.h */,
-				BE2409F0254AE9FE00E10978 /* UIViewController+MumaNavegationItem.m */,
-				BE7F142D254BA8B40011907A /* UINavigationBar+MumaNavetationBar.h */,
-				BE7F142E254BA8B40011907A /* UINavigationBar+MumaNavetationBar.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -592,6 +615,7 @@
 				BE819718240CE088004FAEA0 /* LaunchScreen.storyboard in Resources */,
 				BE819741240CE21F004FAEA0 /* TemperatureLoginViewController.xib in Resources */,
 				BE819715240CE088004FAEA0 /* Assets.xcassets in Resources */,
+				BE0FDA2C256B504700A9B610 /* ZhaoCollectionViewCell.xib in Resources */,
 				BE748D29240D0E1B00CB5B6D /* Main.storyboard in Resources */,
 				BE819770240CE719004FAEA0 /* README.mdown in Resources */,
 				BE748C9D240CEBAD00CB5B6D /* TemperatureMainViewController.xib in Resources */,
@@ -667,6 +691,7 @@
 				BE819792240CE7C5004FAEA0 /* TomatoCache.m in Sources */,
 				BE748CD1240CF11000CB5B6D /* SDWebImagePrefetcher.m in Sources */,
 				BE748CCA240CF11000CB5B6D /* SDWebImageManager.m in Sources */,
+				BE0FDA41256B59A400A9B610 /* MaiWeiTwoFlowLayout.m in Sources */,
 				BE81977E240CE719004FAEA0 /* AFURLSessionManager.m in Sources */,
 				BE748CD3240CF11000CB5B6D /* SDWebImageDownloaderOperation.m in Sources */,
 				BE819785240CE757004FAEA0 /* MBProgressHUD+Add.m in Sources */,
@@ -681,7 +706,9 @@
 				BE748CD0240CF11000CB5B6D /* SDWebImageCompat.m in Sources */,
 				BE748CD6240CF11000CB5B6D /* NSImage+WebCache.m in Sources */,
 				BE748CD5240CF11000CB5B6D /* UIImageView+WebCache.m in Sources */,
+				BE7F1434254BFD060011907A /* UIViewController+MumaNavegationItem.m in Sources */,
 				BE748CCE240CF11000CB5B6D /* UIImage+GIF.m in Sources */,
+				BE0FDA2B256B504700A9B610 /* ZhaoCollectionViewCell.m in Sources */,
 				BE759BF72531639400D3C495 /* MuMaClassRoomCrashManger.m in Sources */,
 				BE81976E240CE719004FAEA0 /* MBProgressHUD.m in Sources */,
 				BE819775240CE719004FAEA0 /* AFNetworkActivityIndicatorManager.m in Sources */,
@@ -690,7 +717,9 @@
 				BE819740240CE21F004FAEA0 /* TemperatureLoginViewController.m in Sources */,
 				BE748CD2240CF11000CB5B6D /* SDImageCache.m in Sources */,
 				BE748CDE240CF14500CB5B6D /* TemperatureUserInterfaceViewController.m in Sources */,
+				BE0FDA38256B545700A9B610 /* MaiWeiFlowLayout.m in Sources */,
 				BE748CDA240CF11000CB5B6D /* UIButton+WebCache.m in Sources */,
+				BE0FDA27256B501A00A9B610 /* CollectionViewController.m in Sources */,
 				BE748CD9240CF11000CB5B6D /* UIView+WebCache.m in Sources */,
 				BE819777240CE719004FAEA0 /* UIButton+AFNetworking.m in Sources */,
 				BE81977A240CE719004FAEA0 /* AFAutoPurgingImageCache.m in Sources */,
@@ -702,10 +731,9 @@
 				BE819773240CE719004FAEA0 /* UIProgressView+AFNetworking.m in Sources */,
 				BE819781240CE719004FAEA0 /* AFSecurityPolicy.m in Sources */,
 				BE748CCB240CF11000CB5B6D /* SDWebImageDecoder.m in Sources */,
-				BE2409F1254AE9FE00E10978 /* UIViewController+MumaNavegationItem.m in Sources */,
 				BE819793240CE7C5004FAEA0 /* NetRequest.m in Sources */,
 				BE81977B240CE719004FAEA0 /* AFImageDownloader.m in Sources */,
-				BE7F142F254BA8B40011907A /* UINavigationBar+MumaNavetationBar.m in Sources */,
+				BE7F1435254BFD060011907A /* UINavigationBar+MumaNavetationBar.m in Sources */,
 				BE748CD4240CF11000CB5B6D /* NSData+ImageContentType.m in Sources */,
 				BE748CCD240CF11000CB5B6D /* SDWebImageDownloader.m in Sources */,
 				BE819776240CE719004FAEA0 /* UIImageView+AFNetworking.m in Sources */,

@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TemperatureLoginViewController">
             <connections>
+                <outlet property="bigImageView" destination="9Ab-wc-eF6" id="axa-oi-wyB"/>
+                <outlet property="minImageView" destination="GPo-qr-iv7" id="mBM-5h-Z4y"/>
                 <outlet property="passTextField" destination="zeR-BM-YHx" id="hWz-uf-Dcv"/>
                 <outlet property="phoneTextField" destination="ncb-zW-6YN" id="NDC-1W-KZX"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -73,7 +75,7 @@
                         <action selector="handleLoginButtonAction:" destination="-1" eventType="touchUpInside" id="0ar-qX-T6D"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o0z-rB-W1H">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o0z-rB-W1H">
                     <rect key="frame" x="190" y="582" width="34" height="30"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="34" id="2RV-9K-4yG"/>
@@ -81,7 +83,7 @@
                     </constraints>
                     <state key="normal" title="login"/>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSv-6w-fYB">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSv-6w-fYB">
                     <rect key="frame" x="184" y="712" width="46" height="30"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="1tk-m2-WP7"/>
@@ -89,7 +91,7 @@
                     </constraints>
                     <state key="normal" title="loginTwo"/>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I0V-lM-Qlr">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I0V-lM-Qlr">
                     <rect key="frame" x="184" y="622" width="46" height="30"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="8qh-7h-9qp"/>
@@ -97,6 +99,20 @@
                     </constraints>
                     <state key="normal" title="Button333333"/>
                 </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GPo-qr-iv7">
+                    <rect key="frame" x="157" y="482" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="9Gx-26-Yg9"/>
+                        <constraint firstAttribute="height" constant="100" id="wmy-y4-R1U"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="fengtimo" translatesAutoresizingMaskIntoConstraints="NO" id="9Ab-wc-eF6">
+                    <rect key="frame" x="184" y="562" width="200" height="300"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="MSd-h4-3dj"/>
+                        <constraint firstAttribute="height" constant="300" id="ue2-lJ-UEF"/>
+                    </constraints>
+                </imageView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
@@ -108,22 +124,27 @@
                 <constraint firstItem="yYl-gL-mIA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="IbA-eX-elF"/>
                 <constraint firstItem="VBM-Gk-CfY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="NIL-bw-COZ"/>
                 <constraint firstItem="I0V-lM-Qlr" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="SuI-le-MnD"/>
+                <constraint firstItem="9Ab-wc-eF6" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="TYV-pa-4ai"/>
                 <constraint firstItem="fSv-6w-fYB" firstAttribute="top" secondItem="o0z-rB-W1H" secondAttribute="bottom" constant="100" id="VpY-8p-OAf"/>
+                <constraint firstItem="GPo-qr-iv7" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="WUz-8W-bjX"/>
                 <constraint firstAttribute="trailing" secondItem="yYl-gL-mIA" secondAttribute="trailing" constant="20" id="ayZ-IH-ReM"/>
                 <constraint firstAttribute="trailing" secondItem="ncb-zW-6YN" secondAttribute="trailing" constant="29" id="b5q-hZ-rhK"/>
                 <constraint firstItem="mRJ-Ai-zdd" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="gTE-QV-ZRU"/>
                 <constraint firstAttribute="trailing" secondItem="zeR-BM-YHx" secondAttribute="trailing" constant="29" id="j8s-53-iQc"/>
                 <constraint firstItem="o0z-rB-W1H" firstAttribute="top" secondItem="mRJ-Ai-zdd" secondAttribute="bottom" constant="100" id="kPn-T0-lB3"/>
+                <constraint firstItem="9Ab-wc-eF6" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="l8W-rd-I3V"/>
                 <constraint firstItem="zeR-BM-YHx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="29" id="lHg-7S-HbC"/>
                 <constraint firstAttribute="trailing" secondItem="VBM-Gk-CfY" secondAttribute="trailing" constant="20" id="nKD-8x-dwr"/>
                 <constraint firstItem="VBM-Gk-CfY" firstAttribute="top" secondItem="zeR-BM-YHx" secondAttribute="bottom" id="q6H-3d-YWg"/>
                 <constraint firstItem="mRJ-Ai-zdd" firstAttribute="top" secondItem="VBM-Gk-CfY" secondAttribute="bottom" constant="50" id="rmt-C0-gWq"/>
                 <constraint firstItem="ncb-zW-6YN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="29" id="smF-V6-RKB"/>
+                <constraint firstItem="GPo-qr-iv7" firstAttribute="top" secondItem="mRJ-Ai-zdd" secondAttribute="bottom" id="vwe-c5-vZj"/>
                 <constraint firstItem="I0V-lM-Qlr" firstAttribute="top" secondItem="o0z-rB-W1H" secondAttribute="bottom" constant="10" id="wC8-qm-Mg5"/>
             </constraints>
-
-            <point key="canvasLocation" x="70" y="760"/>
-
+            <point key="canvasLocation" x="391" y="706"/>
         </view>
     </objects>
+    <resources>
+        <image name="fengtimo" width="300" height="300"/>
+    </resources>
 </document>
