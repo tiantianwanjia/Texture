@@ -28,7 +28,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = WhiteColor;
     
-    NSLog(@"%lfgggggggg",SCREEN_HEIGHT);
+    NSLog(@"%lfggggggggwwwwwww",SCREEN_HEIGHT);
     
     //NSLog(@"%@",@[@""][9]);234234234234
 //    NSAttributedString *attrString = [[NSAttributedString alloc] initWithString:@"请输入账号"attributes:

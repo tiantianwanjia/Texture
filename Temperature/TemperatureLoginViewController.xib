@@ -106,8 +106,8 @@
                         <constraint firstAttribute="height" constant="100" id="wmy-y4-R1U"/>
                     </constraints>
                 </imageView>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="fengtimo" translatesAutoresizingMaskIntoConstraints="NO" id="9Ab-wc-eF6">
-                    <rect key="frame" x="184" y="562" width="200" height="300"/>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fengtimo" translatesAutoresizingMaskIntoConstraints="NO" id="9Ab-wc-eF6">
+                    <rect key="frame" x="107" y="100" width="200" height="300"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="200" id="MSd-h4-3dj"/>
                         <constraint firstAttribute="height" constant="300" id="ue2-lJ-UEF"/>
@@ -141,7 +141,7 @@
                 <constraint firstItem="GPo-qr-iv7" firstAttribute="top" secondItem="mRJ-Ai-zdd" secondAttribute="bottom" id="vwe-c5-vZj"/>
                 <constraint firstItem="I0V-lM-Qlr" firstAttribute="top" secondItem="o0z-rB-W1H" secondAttribute="bottom" constant="10" id="wC8-qm-Mg5"/>
             </constraints>
-            <point key="canvasLocation" x="943" y="662"/>
+            <point key="canvasLocation" x="551" y="62"/>
         </view>
     </objects>
     <resources>
