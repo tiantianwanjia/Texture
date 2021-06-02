@@ -93,7 +93,10 @@ static NSString *const scanLineAnimationName = @"scanLineAnimation";
     self.totalScale = 1.0;
 
     //再次增加，只是想提交这一个文件2222222
+<<<<<<< HEAD
 
+=======
+>>>>>>> loginThree
     
     self.view.backgroundColor = WhiteColor;
     

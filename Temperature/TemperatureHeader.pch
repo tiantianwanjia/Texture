@@ -38,6 +38,7 @@
 #import "NetRequest.h"
 #import "UIImageView+WebCache.h"
 #import "UIButton+EnlargeEdge.h"
+#import <MacroDefinition.h>
 
 
 #endif /* TemperatureHeader_pch */

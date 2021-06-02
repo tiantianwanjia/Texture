@@ -9,10 +9,16 @@
 #import "TemperatureLoginViewController.h"
 #import "MBProgressHUD+Add.h"
 #import "TemperatureMainViewController.h"
+#import <MacroDefinition.h>
+
+#import "CollectionViewController.h"
+
 
 @interface TemperatureLoginViewController ()<UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *phoneTextField;
 @property (weak, nonatomic) IBOutlet UITextField *passTextField;
+@property (weak, nonatomic) IBOutlet UIImageView *bigImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *minImageView;
 
 @end
 
@@ -22,7 +28,9 @@
     [super viewDidLoad];
     self.view.backgroundColor = WhiteColor;
     
-    //NSLog(@"%@",@[@""][9]);
+    NSLog(@"%lfgggggggg",SCREEN_HEIGHT);
+    
+    //NSLog(@"%@",@[@""][9]);234234234234
 //    NSAttributedString *attrString = [[NSAttributedString alloc] initWithString:@"请输入账号"attributes:
 //    @{NSForegroundColorAttributeName:RGB(0xFF8464)}];
 //    _phoneTextField.attributedPlaceholder = attrString;
@@ -52,26 +60,32 @@
     //又修改了ffffffffffffff
     //反反复复发烧
     //想要和定login分支的单个文件
-    if (_phoneTextField.text.length == 0) {
-        UIWindow *window = [[UIApplication sharedApplication].windows lastObject];
-        [MBProgressHUD showError:@"请输入账号" toView:window];
-        return;
-    }
-    if (_phoneTextField.text.length == 0) {
-        [MBProgressHUD showError:@"请输入密码" toView:self.view];
-        return;
-    }
-
-    NSString *gg = nil;
-    [NetRequest POST:Login parameters:@{@"username":gg,@"password":_passTextField.text} success:^(id responseObject) {
-        [[NSUserDefaults standardUserDefaults] setObject:responseObject[@"token"] forKey:SaveUserToken];
-        TemperatureMainViewController *mainVc = [TemperatureMainViewController new];
-        mainVc.modalPresentationStyle = UIModalPresentationFullScreen;
-        [self presentViewController:mainVc animated:YES completion:^{
-            
-        }];
-    } failure:^(NSError *error) {
-
+//    if (_phoneTextField.text.length == 0) {
+//        UIWindow *window = [[UIApplication sharedApplication].windows lastObject];
+//        [MBProgressHUD showError:@"请输入账号" toView:window];
+//        return;
+//    }
+//    if (_phoneTextField.text.length == 0) {
+//        [MBProgressHUD showError:@"请输入密码" toView:self.view];
+//        return;
+//    }
+//
+//    NSString *gg = nil;
+//    [NetRequest POST:Login parameters:@{@"username":gg,@"password":_passTextField.text} success:^(id responseObject) {
+//        [[NSUserDefaults standardUserDefaults] setObject:responseObject[@"token"] forKey:SaveUserToken];
+//        TemperatureMainViewController *mainVc = [TemperatureMainViewController new];
+//        mainVc.modalPresentationStyle = UIModalPresentationFullScreen;
+//        [self presentViewController:mainVc animated:YES completion:^{
+//
+//        }];
+//    } failure:^(NSError *error) {
+//
+//    }];
+    
+    CollectionViewController *col = [CollectionViewController new];
+    col.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:col animated:YES completion:^{
+        
     }];
     
 }
